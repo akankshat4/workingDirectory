@@ -36,18 +36,15 @@ public class LoginStepDefintion {
     @And("^User enters userName$")
     public void step4_user_enters_user_name() throws InterruptedException {
         Thread.sleep(10000);
-        // Write code here that turns the phrase above into concrete actions
         webDriver.findElement(By.xpath("//*[@id=\"ui\"]/div/div/form/div/div[1]/div/input")).sendKeys("akankshat4@gmail.com");
     }
     @And("^User enters password$")
     public void step5_user_enters_password() {
-        // Write code here that turns the phrase above into concrete actions
         webDriver.findElement(By.xpath("//*[@id=\"ui\"]/div/div/form/div/div[2]/div/input")).sendKeys("Kra23#Hem");
     }
 
     @And("^User clicks on login button$")
     public void step6_user_clicks_on_login_button() {
-        // Write code here that turns the phrase above into concrete actions
         webDriver.findElement(By.xpath("//*[@id=\"ui\"]/div/div/form/div/div[3]")).click();
     }
 
