@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.466">
+    <testcase classname="Test background keyword of cucumber" name="Search the product and add the product to the user basket" time="0.123">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I navigate to the log-in page.........................................passed
+When I submit username and password.........................................passed
+Then I should be logged in..................................................passed
+Given User search for lenovo laptop.........................................passed
+When Add first laptop from search results to the basket.....................passed
+Then User basket should display the added item..............................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Test background keyword of cucumber" name="Navigate to the product and add the same product to the user basket" time="0.003">
+        <system-out>
+            <![CDATA[Given I navigate to the log-in page.........................................passed
+When I submit username and password.........................................passed
+Then I should be logged in..................................................passed
+Given User navigate for Lenovo laptop.......................................passed
+When Add laptop to the user basket..........................................passed
+Then user basket should display the added item..............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
