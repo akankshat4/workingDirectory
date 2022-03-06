@@ -7,7 +7,7 @@ Feature: As ecommerce store owner,
 
   Scenario: Fill in contact us form
     When I fill "email address" with "abc@gmail.com"
-    Then I should receive email with  :
+    Then I should receive email from customer
       """
       Dear Sir,
 

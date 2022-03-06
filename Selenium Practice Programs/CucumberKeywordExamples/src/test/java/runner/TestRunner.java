@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         plugin = {"testng", "html:target/cucumber-report/cucumber.html",
                 "json:target/cucumber-report/cucumber.json",
                 "junit:target/cucumber-report/cucumber.xml"},
-        dryRun = true
+        dryRun = false
 )
 public class TestRunner {
 }
