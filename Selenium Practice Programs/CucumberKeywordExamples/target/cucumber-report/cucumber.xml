@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.576">
-    <testcase classname="Test background keyword of cucumber" name="Search the product and add the product to the user basket" time="0.127">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="0.498">
+    <testcase classname="Test background keyword of cucumber" name="Search the product and add the product to the user basket" time="0.106">
         <system-out>
             <![CDATA[Given I navigate to the log-in page.........................................passed
 When I submit username and password.........................................passed
@@ -11,7 +11,7 @@ Then User basket should display the added item..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Test background keyword of cucumber" name="Navigate to the product and add the same product to the user basket" time="0.005">
+    <testcase classname="Test background keyword of cucumber" name="Navigate to the product and add the same product to the user basket" time="0.004">
         <system-out>
             <![CDATA[Given I navigate to the log-in page.........................................passed
 When I submit username and password.........................................passed
@@ -22,7 +22,16 @@ Then user basket should display the added item..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="To validate the scenario outline keyword" name="To validate the calculator function" time="0.027">
+    <testcase classname="As ecommerce store owner," name="Fill in contact us form" time="0.009">
+        <system-out>
+            <![CDATA[Given I am on home page.....................................................passed
+And I follow "Contact Us"...................................................passed
+When I fill "email address" with "abc@gmail.com"............................passed
+Then I should receive email with  :.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate the scenario outline keyword" name="To validate the calculator function" time="0.007">
         <system-out>
             <![CDATA[Given There are 12 cucumbers................................................passed
 When I eat 5 cucumbers......................................................passed
@@ -30,7 +39,7 @@ Then I should have 7 cucumbers..............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="To validate the scenario outline keyword" name="To validate the calculator function 2" time="0.011">
+    <testcase classname="To validate the scenario outline keyword" name="To validate the calculator function 2" time="0">
         <system-out>
             <![CDATA[Given There are 20 cucumbers................................................passed
 When I eat 5 cucumbers......................................................passed
