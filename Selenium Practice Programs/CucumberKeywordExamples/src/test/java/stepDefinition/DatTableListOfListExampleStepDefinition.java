@@ -1,9 +1,14 @@
 package stepDefinition;
 
 import io.cucumber.datatable.DataTable;
+import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.Before;
+import io.cucumber.java.BeforeStep;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import utility.Hooks;
 
 import java.util.List;
 
@@ -29,5 +34,28 @@ public class DatTableListOfListExampleStepDefinition {
     @Then("login success message displayed successfully")
     public void login_success_message_displayed_successfully() {
         System.out.println("User logged in successfully");
+    }
+
+    @Before
+    public void beforeScenario(){
+        System.out.println("********************************************");
+        System.out.println("This will run before the scenario");
+    }
+    @After
+    public void afterScenario(){
+        System.out.println("This will run after the scenario");
+        System.out.println("********************************************");
+    }
+
+    @BeforeStep
+    public void beforeStep(){
+        System.out.println("-------------------------");
+        System.out.println("Beofre Step");
+    }
+
+    @AfterStep
+    public void afterStep(){
+        System.out.println("After Step");
+        System.out.println("-------------------------");
     }
 }
