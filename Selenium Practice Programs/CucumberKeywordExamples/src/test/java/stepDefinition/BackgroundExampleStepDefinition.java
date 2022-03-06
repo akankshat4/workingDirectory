@@ -4,7 +4,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class File1StepDefinition {
+public class BackgroundExampleStepDefinition {
     @Given("I navigate to the log-in page")
     public void i_navigate_to_the_log_in_page() {
         System.out.println("User navigates to the log in page");
@@ -27,12 +27,12 @@ public class File1StepDefinition {
     public void add_first_laptop_from_search_results_to_the_basket() {
         System.out.println("First laptop from the search result added to the user basket");
     }
-    /*
+
     @Then("User basket should display the added item")
     public void user_basket_should_display_the_added_item() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("User basket displays the added item");
-    }*/
+    }
 
     @Given("User navigate for Lenovo laptop")
     public void user_navigate_for_lenovo_laptop() {
@@ -44,7 +44,7 @@ public class File1StepDefinition {
     }
 
     @Then("user basket should display the added item")
-    public void user_basket_should_display_the_added_item() {
+    public void user_basket_should_display_the_added_item01() {
         System.out.println("User basket should display the added item");
     }
 
