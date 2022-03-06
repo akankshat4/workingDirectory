@@ -21,8 +21,8 @@ public class DocStringExampleStepDefinition {
         System.out.println("I fill '"+string+"' with '"+string2+"'");
     }
 
-    @Then("I should receive email with  :")
-    public void i_should_receive_email_with(String docString) {
-        System.out.println("I should receive email with : "+docString);
+    @Then("I should receive email from customer")
+    public void i_should_receive_email_from_customer(String docString) {
+        System.out.println("I received message : "+docString);
     }
 }
