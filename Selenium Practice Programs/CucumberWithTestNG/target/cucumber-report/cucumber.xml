@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.372">
+    <testcase classname="TO validate implementation of testNG with cucumber" name="Sample feature to practice TestNG with cucumber" time="0.025">
+        <system-out>
+            <![CDATA[Given User is on home page..................................................passed
+When User selects first item................................................passed
+And Clicks on Add to cart button............................................passed
+Then Selected item should be added to the cart..............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
