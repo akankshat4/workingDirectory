@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="0.6">
-    <testcase classname="Test background keyword of cucumber" name="Search the product and add the product to the user basket" time="0.126">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="0.897">
+    <testcase classname="Test background keyword of cucumber" name="Search the product and add the product to the user basket" time="0.15">
         <system-out>
             <![CDATA[Given I navigate to the log-in page.........................................passed
 When I submit username and password.........................................passed
@@ -22,7 +22,16 @@ Then user basket should display the added item..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="To test data tables as list of list" name="Successful log in using valid credentials" time="0.021">
+    <testcase classname="To test data tables as list of map" name="DT2 Datatable Example" time="0.016">
+        <system-out>
+            <![CDATA[Given DT2 User is on home page..............................................passed
+When DT2 User navigates to log-in page......................................passed
+And DT2 User enters credentials to login....................................passed
+Then DT2 login success message displayed successfully.......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To test data tables as list of list" name="Successful log in using valid credentials" time="0.024">
         <system-out>
             <![CDATA[Given User is on home page..................................................passed
 When User navigates to log-in page..........................................passed
@@ -31,7 +40,7 @@ Then login success message displayed successfully...........................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="As ecommerce store owner," name="Fill in contact us form" time="0.025">
+    <testcase classname="As ecommerce store owner," name="Fill in contact us form" time="0.059">
         <system-out>
             <![CDATA[Given I am on home page.....................................................passed
 And I follow "Contact Us"...................................................passed
@@ -40,7 +49,7 @@ Then I should receive email from customer...................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="To validate the scenario outline keyword" name="To validate the calculator function" time="0.017">
+    <testcase classname="To validate the scenario outline keyword" name="To validate the calculator function" time="0.02">
         <system-out>
             <![CDATA[Given There are 12 cucumbers................................................passed
 When I eat 5 cucumbers......................................................passed
@@ -48,7 +57,7 @@ Then I should have 7 cucumbers..............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="To validate the scenario outline keyword" name="To validate the calculator function 2" time="0.005">
+    <testcase classname="To validate the scenario outline keyword" name="To validate the calculator function 2" time="0.011">
         <system-out>
             <![CDATA[Given There are 20 cucumbers................................................passed
 When I eat 5 cucumbers......................................................passed
