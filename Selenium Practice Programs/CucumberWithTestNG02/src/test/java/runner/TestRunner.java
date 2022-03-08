@@ -44,9 +44,6 @@ public class TestRunner{
         if (testNGCucumberRunner == null) {
             return new Object[0][0];
         }
-
-        System.out.println(i+". "+testNGCucumberRunner.provideScenarios().getClass());
-        i++;
         return testNGCucumberRunner.provideScenarios();
     }
 
