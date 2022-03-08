@@ -17,7 +17,7 @@ import org.testng.annotations.Test;
                 "junit:target/cucumber-report/cucumber.xml"},
         dryRun = false
 )
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class TestRunner{
 /*
         @Override
         @DataProvider(parallel = true)
