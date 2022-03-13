@@ -1,4 +1,4 @@
-package string;
+package stringOperationsExamples;
 
 import java.util.Scanner;
 
@@ -21,6 +21,8 @@ public class OccurencesOfSubStringInString {
         System.out.println("***********************************");
         System.out.println("Please enter sub-string : ");
         subString = scanner.nextLine();
+
+        //contains function checks if the string contains sub-string
         exist = string.contains(subString);
 
         if(exist){
