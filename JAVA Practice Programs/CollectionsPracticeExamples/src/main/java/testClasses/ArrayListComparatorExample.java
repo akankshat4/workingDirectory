@@ -1,6 +1,7 @@
 package testClasses;
 
-import comparator.ProductComparator;
+import comparator.ProductNameComparator;
+import comparator.ProductPriceComparator;
 import objectClasses.Product;
 
 import java.util.ArrayList;
@@ -57,10 +58,16 @@ public class ArrayListComparatorExample {
                     +", Product Price : "+product.productPrice);
         }
 
-        Collections.sort(arrayList,new ProductComparator());
+        System.out.println("********** Ordering based on Product-Price **********");
+        Collections.sort(arrayList,new ProductPriceComparator());
+        for(Product product:arrayList){
+            System.out.println("-----------");
+            System.out.println("Product ID : "+product.productId+", Product Name : "+product.productName
+                    +", Product Price : "+product.productPrice);
+        }
 
-        System.out.println("*************************************************");
-        // ordering of elements based on price
+        System.out.println("********** Ordering based on Product-Name **********");
+        Collections.sort(arrayList, new ProductNameComparator());
         for(Product product:arrayList){
             System.out.println("-----------");
             System.out.println("Product ID : "+product.productId+", Product Name : "+product.productName

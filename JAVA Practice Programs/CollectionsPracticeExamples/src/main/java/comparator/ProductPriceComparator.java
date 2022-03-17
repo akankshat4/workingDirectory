@@ -4,7 +4,7 @@ import objectClasses.Product;
 
 import java.util.Comparator;
 
-public class ProductComparator implements Comparator<Product> {
+public class ProductPriceComparator implements Comparator<Product> {
     @Override
     public int compare(Product product1, Product product2) {
         if (product1.productPrice == product2.productPrice)
