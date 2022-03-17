@@ -1,4 +1,4 @@
-package testClasses.arrayList;
+package testClasses.list;
 
 import comparator.ProductNameComparator;
 import comparator.ProductPriceComparator;
