@@ -1,4 +1,4 @@
-package testClasses;
+package testClasses.arrayList;
 
 import objectClasses.Product;
 
