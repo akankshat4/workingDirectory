@@ -7,7 +7,7 @@ public class ReverseStringByWords {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the string : ");
         String baseString = scanner.nextLine();
-
+        baseString = baseString.replace('.', ' ');
         String[] charArray = baseString.split(" ");
         System.out.println(charArray.length);
 
