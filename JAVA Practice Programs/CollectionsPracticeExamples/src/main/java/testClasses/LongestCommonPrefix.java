@@ -1,10 +1,13 @@
-package arrayList;
+package testClasses;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+/*
+Below code is incomplete
+ */
 public class LongestCommonPrefix {
     static List<String> stringArray = new ArrayList<>();
     static int lengthOfSmallestString = 0;
