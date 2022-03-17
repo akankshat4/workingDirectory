@@ -73,5 +73,13 @@ public class ArrayListComparatorExample {
             System.out.println("Product ID : "+product.productId+", Product Name : "+product.productName
                     +", Product Price : "+product.productPrice);
         }
+
+        System.out.println("********** Reverse ordering based on Product-Price **********");
+        Collections.sort(arrayList, Collections.reverseOrder(new ProductPriceComparator()));
+        for(Product product:arrayList){
+            System.out.println("-----------");
+            System.out.println("Product ID : "+product.productId+", Product Name : "+product.productName
+                    +", Product Price : "+product.productPrice);
+        }
     }
 }
