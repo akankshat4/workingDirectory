@@ -1,4 +1,4 @@
-package functionalInterfaces;
+package classes.functionalInterface.interfaces;
 
 
 public interface Square {

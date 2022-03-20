@@ -1,4 +1,4 @@
-package classes;
+package classes.functionalInterface.test;
 
 public class TestThread {
     public static int counter = 0;

@@ -1,4 +1,4 @@
-package collectionObjects;
+package classes.comparator.collectionObjects;
 
 public class Product {
     public int productId;
