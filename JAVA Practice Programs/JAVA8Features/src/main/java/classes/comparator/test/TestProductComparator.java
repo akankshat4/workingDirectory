@@ -1,9 +1,8 @@
-package classes;
+package classes.comparator.test;
 
-import collectionObjects.Product;
+import classes.comparator.collectionObjects.Product;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class TestProductComparator {

@@ -1,6 +1,6 @@
-package classes;
+package classes.functionalInterface.test;
 
-import functionalInterfaces.Square;
+import classes.functionalInterface.interfaces.Square;
 
 public class TestSquare {
     public static void main(String args[]){
